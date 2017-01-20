@@ -1,14 +1,11 @@
-import {Component} from '@angular/core';
-import {HeaderComponent} from './header.component';
-import {RecipesComponent} from './recipes';
-import {ShoppingListComponent} from "./shopping-list";
+import { Component } from '@angular/core';
 
 @Component({
-    moduleId: module.id,
-    selector: 'rb-root',
-    templateUrl: 'app.component.html',
-    directives: [HeaderComponent,RecipesComponent,ShoppingListComponent]
+  moduleId: module.id,
+  selector: 'app-root',
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.css']
 })
 export class AppComponent {
-    title = 'app works!';
+  title = 'app works!';
 }
